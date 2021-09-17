@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply text-lg;
+}
+
+h1{
+    @apply text-grayishblue-900 text-3xl font-bold;
+}
+
+h2{
+    @apply text-grayishblue-900 text-2xl;
+}
+
+button{
+    @apply mt-5 py-3 px-16 mx-auto rounded-full text-white text-lg font-semibold;
+}
+
+p{
+    @apply text-grayishblue-600 tracking-tight;
+}
+
